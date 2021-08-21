@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 Route::get('/login','Goods\LongController@one');
 Route::get('login2','Goods\LoginController@two');
+
+
+Route::get('login4','Goods\LoginController@four');
