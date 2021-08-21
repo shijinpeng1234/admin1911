@@ -12,4 +12,8 @@ class LongController extends Controller
         echo "版本1.0";
         phpinfo();
     }
+    public function two()
+    {
+        echo "版本2.0";
+    }
 }

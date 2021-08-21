@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login','Goods\LongController@one');
+Route::get('login2','Goods\LoginController@two');
