@@ -19,3 +19,4 @@ Route::get('login2','Goods\LoginController@two');
 
 
 Route::get('login4','Goods\LoginController@four');
+Route::get('login5','Goods\LoginController@five');

@@ -19,4 +19,8 @@ class LongController extends Controller
     {
         echo "版本4.0";
     }
+    public function five()
+    {
+        echo "版本5.0";
+    }
 }
