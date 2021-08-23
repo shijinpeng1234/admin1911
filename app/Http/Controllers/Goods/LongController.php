@@ -9,8 +9,7 @@ class LongController extends Controller
 {
     public function one()
     {
-        echo "版本1.0";
-        phpinfo();
+        echo "版本1.0.0";
     }
     public function two()
     {
